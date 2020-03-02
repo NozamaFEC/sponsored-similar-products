@@ -1,15 +1,8 @@
 const express = require('express');
 const App = express();
-const db = require('./../mysql-database/db')
+const path = require('path');
 
-App.get('/', (req, res) => {
-    res.send(db.getAllProductInfo(err, data) => {
-        if(err) {
-            console.log(err)
-        }
-        
-    })
-})   
+App.use(express.static(path.join(process.cwd(), '/Client-side/dist')))
 
 App.listen(3000, ()=>{
     console.log(`listening on port 3000`)
