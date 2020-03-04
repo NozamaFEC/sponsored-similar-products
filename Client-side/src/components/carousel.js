@@ -1,6 +1,6 @@
 import React, { component } from 'react';
-import sponsoredProducts from './sponsoredProd';
-import productHeader from './productHeader';
+import SponsoredProducts from './sponsoredProd';
+import ProductHeader from './productHeader';
 
 class App extends React.Component {
     constructor(props) {
@@ -9,9 +9,9 @@ class App extends React.Component {
 
     render() {
         return(
-            <div>
-                <sponsoredProducts />
-                <productHeader />
+            <div className='carousel-container'>
+                <ProductHeader />
+                <SponsoredProducts />
             </div>
         );
     }

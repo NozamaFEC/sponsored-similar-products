@@ -1,0 +1,45 @@
+
+body {
+    color: black;
+    background-color: rgb(250, 250, 250);
+}
+
+.carousel-container {
+    display: grid;
+    height: 1464;
+    width: 346.33;
+}
+
+.productHeader {
+   
+}
+
+.carousel-inner {
+    display:grid;
+    grid-template-columns: 10% auto 10%;
+}
+
+.previousButton, .nextButton {
+  display:flex;
+  align-items: center;
+  justify-content: space-around;
+
+}
+
+.carousel-inner button {
+    height: 20px;
+    width: 100px;
+}
+
+.ListOfProducts {
+    display: grid;
+    grid-template-columns: 14.2857143% 14.2857143% 14.2857143% 14.2857143% 14.2857143% 14.2857143% 14.2857143%;
+}
+
+Product {
+
+}
+
+
+/* i was creating how to make the style.css render so i can properly style
+    it with the things i need, so far its not working */

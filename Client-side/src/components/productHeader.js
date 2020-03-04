@@ -1,9 +1,9 @@
 import React from 'react'
 
-const productHeader = () => {
+const ProductHeader = () => {
     return(
-        <div>sponsored products related to this item</div>
+        <div className="productHeader">sponsored products related to this item</div>
     )
 }
 
-export default productHeader();
+export default ProductHeader;

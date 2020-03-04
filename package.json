@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ovopoli/MCSP03FEC.git"
+    "url": "git+https://github.com/NozamaFEC/sponsored-similar-products"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ovopoli/MCSP03FEC/issues"
+    "url": "https://github.com/NozamaFEC/sponsored-similar-products"
   },
-  "homepage": "https://github.com/ovopoli/MCSP03FEC#readme",
+  "homepage": "https://github.com/NozamaFEC/sponsored-similar-products#readme",
   "dependencies": {
     "@babel/core": "^7.8.6",
     "@babel/preset-env": "^7.8.6",
@@ -34,11 +34,15 @@
     "path": "^0.12.7",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
+    "react-responsive-carousel": "^3.1.51",
     "webpack": "^4.41.6",
     "webpack-cli": "^3.3.11"
   },
   "devDependencies": {
+    "css-loader": "^3.4.2",
     "nodemon": "^2.0.2",
+    "style-loader": "^1.1.3",
+    "ts-loader": "^6.2.1",
     "webpack-dev-server": "^3.10.3"
   }
 }
