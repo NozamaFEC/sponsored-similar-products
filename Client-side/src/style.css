@@ -1,0 +1,103 @@
+
+body {
+    color: black;
+    background-color: rgb(250, 250, 250);
+}
+
+/* .divider {
+
+} */
+
+.carousel-container {
+    display: grid;
+    height: 1464%;
+    max-width: 100%;
+    box-sizing: border-box;
+
+    /* width: 346.33; */
+}
+
+.productHeader {
+   /* width: 1005.330px; */
+   height: 26.667px;
+   margin-bottom: 20px;
+
+}
+
+.carousel-inner {
+    display:grid;
+    grid-template-columns: 10% 1fr 10%;
+    height: 338.333px;
+    min-width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.previousButton, .nextButton {
+  display:flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 40px;
+  overflow: visible;
+  
+}
+
+/* .carousel-inner {
+    display: grid;
+    width: 1005.330px;
+    height: 338.328;
+} */
+
+button {
+    width: 34px;
+    height: 37px;
+}
+
+.ListOfProducts {
+    display: grid;
+    width: 100%;
+    overflow: hidden;
+    grid-template-columns: 14.2857143% 14.2857143% 14.2857143% 14.2857143% 14.2857143% 14.2857143% 14.2857143%;
+    padding-inline-start: 0;
+}
+
+.Product {
+    /* display: flex; */
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    min-width: 160px;
+    min-height: 160px;
+}
+
+img {
+    display: flexbox;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: right;
+    height: 160px;
+    width: 160px;
+}
+
+#app {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* a {
+
+} */
+
+/* .a-button .a-icon-previous {
+    margin: 5px 6px 5px 5px;
+    margin-top: 5px;
+    margin-right: 6px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+} */
+
+
+/* i was creating how to make the style.css render so i can properly style
+    it with the things i need, so far its not working */
