@@ -4,9 +4,9 @@ body {
     background-color: rgb(250, 250, 250);
 }
 
-.divider {
+/* .divider {
 
-}
+} */
 
 .carousel-container {
     display: grid;
@@ -86,9 +86,9 @@ img {
     justify-content: center;
 }
 
-a {
+/* a {
 
-}
+} */
 
 /* .a-button .a-icon-previous {
     margin: 5px 6px 5px 5px;
