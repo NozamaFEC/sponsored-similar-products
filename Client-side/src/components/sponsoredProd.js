@@ -1,14 +1,14 @@
 import React from 'react'
-import Button from './previousButton'
-import NextButton from './nextButton'
-import ListOfProducts from './listOfProducts'
+import Button from './carousel.js/previousButton'
+import NextButton from './carousel.js/nextButton'
+import ListOfProducts from './carousel.js/listOfProducts'
 
 const SponsoredProducts = () => {
     return(
        <div className="carousel-inner">
            <Button />
-           <ListOfProducts className="listOfProducts"/>
-           <NextButton className="nextbutton"/>
+           <ListOfProducts />
+           <NextButton />
        </div>
     );
 }

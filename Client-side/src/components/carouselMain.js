@@ -9,10 +9,10 @@ class App extends React.Component {
 
     render() {
         return(
-            <div className='carousel-container'>
-                <ProductHeader />
-                <SponsoredProducts />
-            </div>
+                <div className='carousel-container'>
+                    <ProductHeader />
+                    <SponsoredProducts />
+                </div>
         );
     }
 }
