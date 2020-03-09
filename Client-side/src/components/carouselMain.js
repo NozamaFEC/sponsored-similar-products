@@ -9,9 +9,18 @@ class App extends React.Component {
 
     render() {
         return(
-                <div className='carousel-container'>
-                    <ProductHeader />
-                    <SponsoredProducts />
+
+                <div className="carousel-container4">
+                    <div className="carousel-container3">
+                        <div className="carousel-container2">
+                            <div className='carousel-container'>
+                                <div className='cardholder'>
+                                    <ProductHeader />
+                                    <SponsoredProducts />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
         );
     }

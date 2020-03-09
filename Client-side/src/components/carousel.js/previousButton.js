@@ -3,7 +3,7 @@ import React from 'react'
 const Button = () => {
     return(
         <div className="previousButton">
-            <button>Previous</button>
+            <button>{'<'}</button>
         </div>
     )
 }

@@ -6,7 +6,7 @@ App.use(express.static(path.join(process.cwd(), '/Client-side/dist')))
 
 App.route('/bundle')
     .get((req, res) => {
-        res.sendFile(path.join(process.cwd(), '/client/dist/bundle.js'))
+        res.sendFile(path.join(process.cwd(), '/Client-side/dist/bundle.js'))
     })
 
 App.listen(4000, ()=>{
